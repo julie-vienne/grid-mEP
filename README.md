@@ -14,7 +14,7 @@ The required inputs, in addition to the material descriptions as in `materials.p
 - Building model in the format `.idf`
 - The surface of the walls, grounds and roofs that use the materials found in `materials.py`
 
-Using `simulation.ipynb` runs Energy Plus simulations. The results of these simulations are stored in new folders named after each material analysed.
+Using `simulation.ipynb` runs Energy Plus simulations. The results of these simulations, inclduing the building's hourly energy demand, are stored in new folders named after each material analysed.
 The notebook will also display the total economic and environmental costs of each building material.
 
 # Variable materials
