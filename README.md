@@ -25,7 +25,7 @@ To do so, in an existing building model, one needs to
 - Use the newly created constructions in the menu 'BuildingSurface:Detailed'
 
 # Use case
-- The economic and environmental costs of the buildings materials can be used as inputs in the optimization performed in the following repo: 
+- The economic and environmental costs of the buildings materials and the building's energy demand can be used as inputs in the optimization performed in the following repo: 
 https://github.com/julie-vienne/single_energy_hub_single_year
 
 # Source
