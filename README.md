@@ -17,6 +17,13 @@ The required inputs, in addition to the material descriptions as in `materials.p
 Using `simulation.ipynb` runs Energy Plus simulations. The results of these simulations are stored in new folders named after each material analysed.
 The notebook will also display the total economic and environmental costs of each building material.
 
+# Variable materials
+The variable materials found in `materials.py` need to be defined in the `.idf` building model. 
+To do so, in an existing building model, one needs to 
+- Create three new materials called 'variable_insulation_wall', 'variable_insulation_groud', 'variable_insulation_roof'
+- Create or update existing constructions using the previsouly defined variable materials
+- Use the newly created constructions in the menu 'BuildingSurface:Detailed'
+
 # Use case
 - The economic and environmental costs of the buildings materials can be used as inputs in the optimization performed in the following repo: 
 https://github.com/julie-vienne/single_energy_hub_single_year
