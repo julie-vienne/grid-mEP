@@ -1,6 +1,7 @@
 # grid-mEP
 This repo is meant to analyse the environmental and economic costs of the insulation materials found in `materials.py`.
 This should lead to the mapping of a grid of building materials to energy demands based on Energy Plus simulations.
+To use the files in this repo, create the environment specified in environment.yml and activate it.
 
 ## Use of `materials.py`
 This file contains the description of the materials that are to be used in the Energy Plus simulations. 
