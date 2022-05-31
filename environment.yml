@@ -1,0 +1,10 @@
+name: eplus
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - opyplus
+  - jupyterlab
+  - pandas
+  - ipykernel
+  - dataclasses
